@@ -1,5 +1,5 @@
 import React from "react";
-import { images } from "./Images/index";
+import { images } from "./Images/animals/animals";
 
 class Images extends React.Component {
   characters = [];
@@ -24,9 +24,9 @@ class Images extends React.Component {
         this.characters.shift();
         this.characters.shift();
       } else {
+        this.characters.shift(); 
         this.characters.shift();
-        this.characters.shift();
-      }
+      } 
     }
     let allPictures = document.getElementsByClassName("image-blank");
     if (allPictures.length < 1) {

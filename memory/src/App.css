@@ -1,3 +1,6 @@
+body{overflow: hidden;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -5,16 +8,14 @@
 background: rgba(0, 0, 0, 0.8);
   height: 100vh;
   width: 100vw;
-  background: url("src/components/Images/background.jpg");
+  background: url("src/components/Images/animals/background.jpg");
 background-size: cover;
-
 }
 
-.App {background: url("src/components/Images/background.jpg");
+.App {background: url("src/components/Images/animals/background.jpg");
 background-size: cover;
 padding-bottom: 6%;
 }
-
 
 .login {
   display: flex;
@@ -24,8 +25,7 @@ padding-bottom: 6%;
   width: 40vw;
   text-align: center;
   box-shadow: 6px 6px 6px gray;
-  background: rgb(240,248,255, 0.6)
-  ;
+  background: rgb(240,248,255, 0.6);
   font-size: 2rem;
   font-weight: bold;
 color: #4D76AF;
@@ -81,7 +81,7 @@ font-weight: bold;
 }
 
 .image-blank {
-  background: url("src/components/Images/onepiece.png") !important;
+  background: url("src/components/Images/animals/onepiece.png") !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
